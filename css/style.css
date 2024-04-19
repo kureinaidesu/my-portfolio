@@ -1,0 +1,36 @@
+body {
+    background-image: url("IU.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid lightblue;
+    padding: 20px;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.displayed-name {
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+}
+
+.displayed-name:hover {
+    border: 2px solid lightblue;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+th, td {
+    padding: 8px;
+}

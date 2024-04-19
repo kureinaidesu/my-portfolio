@@ -1,0 +1,42 @@
+body {
+    background-image: url('images/IU.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    border: 2px solid #000; /* You can change color */
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+
+.centered {
+    text-align: center;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.displayed-name {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #000; /* You can change color */
+    padding: 8px;
+}
+
+table th {
+    background-color: #f2f2f2; /* You can change color */
+}
+p{
+    text-align: justify;
+}
